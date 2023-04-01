@@ -82,3 +82,12 @@ function showModal() {
     });
   }
 }
+compareBtn.addEventListener("click", function(e) {
+  e.preventDefault();
+  if (countrySelect.value === "" || diseaseSelect.value === "") {
+    alert("Please select a country and a disease.");
+  } else {
+    // Redirect to the results page with country and disease as URL parameters
+    window.location.href = `results.html?country=${encodeURIComponent(countrySelect.value)}&disease=${encodeURIComponent(diseaseSelect.value)}`;
+  }
+});
