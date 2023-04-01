@@ -1,0 +1,19 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Node.js Files
+node_modules/
+
+# Build Files
+dist/
+
+# IDE and Editor Files
+.idea/
+.vscode/
+
+# Log Files
+*.log
+
+# Cache Files
+*.cache
