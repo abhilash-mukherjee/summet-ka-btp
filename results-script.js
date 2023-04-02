@@ -25,23 +25,36 @@ document.getElementById("selectedCountry").innerText = selectedCountry;
 document.getElementById("selectedDisease").innerText = selectedDisease;
 
 const diagnosisToRateRef = ref(db, 'DiagnosisToRate');
+const countryRatingsRef = ref(db, 'CountryRatings');
 
 onValue(diagnosisToRateRef, (snapshot) => {
-const diagnosisToRateData = snapshot.val();
-displayDestinationCountries(diagnosisToRateData);
+  const diagnosisToRateData = snapshot.val();
+  onValue(countryRatingsRef, (snapshot) => {
+    const countryRatingsData = snapshot.val();
+    displayDestinationCountries(diagnosisToRateData, countryRatingsData);
+  });
 });
 
-function displayDestinationCountries(diagnosisToRateData) {
-const destinationCountriesList = document.getElementById("destinationCountriesList");
+function displayDestinationCountries(diagnosisToRateData, countryRatingsData) {
+  const destinationCountriesList = document.getElementById("destinationCountriesList");
 
-for (const country in diagnosisToRateData) {
-if (diagnosisToRateData.hasOwnProperty(country)) {
-const cost = diagnosisToRateData[country][selectedDisease];
-if (cost) {
-    const listItem = document.createElement("li");
-    listItem.textContent = `${country}: ${cost}`;
-    destinationCountriesList.appendChild(listItem);
+  for (const country in diagnosisToRateData) {
+    if (diagnosisToRateData.hasOwnProperty(country)) {
+      const cost = diagnosisToRateData[country][selectedDisease];
+
+      if (cost) {
+        const listItem = document.createElement("li");
+        listItem.textContent = `${country}: ${cost}`;
+
+        const ratings = countryRatingsData[country];
+        if (ratings) {
+          const ratingsText = Object.entries(ratings).map(([key, value]) => `${key}: ${value}`).join(', ');
+          listItem.textContent += ` | Ratings: ${ratingsText}`;
+        }
+
+        destinationCountriesList.appendChild(listItem);
+      }
+    }
   }
 }
-}
-}
+
