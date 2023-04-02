@@ -1,0 +1,1467 @@
+{
+    "India":{
+        "United States": {
+          "floor": 750,
+          "ceiling": 1250
+        },
+        "Germany": {
+          "floor": 700,
+          "ceiling": 1150
+        },
+        "Canada": {
+          "floor": 700,
+          "ceiling": 1150
+        },
+        "United Kingdom": {
+          "floor": 700,
+          "ceiling": 1150
+        },
+        "France": {
+          "floor": 650,
+          "ceiling": 1100
+        },
+        "Australia": {
+          "floor": 850,
+          "ceiling": 1400
+        },
+        "South Korea": {
+          "floor": 750,
+          "ceiling": 1200
+        },
+        "Japan": {
+          "floor": 850,
+          "ceiling": 1400
+        },
+        "China": {
+          "floor": 750,
+          "ceiling": 1200
+        },
+        "Brazil": {
+          "floor": 850,
+          "ceiling": 1400
+        },
+        "Mexico": {
+          "floor": 850,
+          "ceiling": 1400
+        },
+        "Switzerland": {
+          "floor": 750,
+          "ceiling": 1200
+        },
+        "Netherlands": {
+          "floor": 750,
+          "ceiling": 1200
+        },
+        "Singapore": {
+          "floor": 850,
+          "ceiling": 1400
+        },
+        "Turkey": {
+          "floor": 750,
+          "ceiling": 1200
+        },
+        "Spain": {
+          "floor": 850,
+          "ceiling": 1400
+        },
+        "Thailand": {
+          "floor": 850,
+          "ceiling": 1400
+        },
+        "Italy": {
+          "floor": 850,
+          "ceiling": 1400
+        },
+        "Belgium": {
+          "floor": 850,
+          "ceiling": 1400
+        },
+        "UAE": {
+          "floor": 850,
+          "ceiling": 1400
+        },
+        "Austria": {
+          "floor": 850,
+          "ceiling": 1400
+        },
+        "Israel": {
+          "floor": 850,
+          "ceiling": 1400
+        },
+        "India": {
+          "floor": 700,
+          "ceiling": 1150
+        },
+        "Malaysia": {
+          "floor": 850,
+          "ceiling": 1400
+        },
+        "Greece": {
+          "floor": 850,
+          "ceiling": 1400
+        },
+        "Portugal": {
+          "floor": 850,
+          "ceiling": 1400
+        },
+        "Poland": {
+          "floor": 850,
+          "ceiling": 1400
+        },
+        "Czech Republic": {
+          "floor": 850,
+          "ceiling": 1400
+        },
+        "Hungary": {
+          "floor": 850,
+          "ceiling": 1400
+        },
+        "Philippines": {
+          "floor": 850,
+          "ceiling": 1400
+        }
+      },
+    "Australia":{
+        "United States": {
+          "Floor": 950,
+          "Ceiling": 1400
+        },
+        "Germany": {
+          "Floor": 800,
+          "Ceiling": 1200
+        },
+        "Canada": {
+          "Floor": 900,
+          "Ceiling": 1500
+        },
+        "United Kingdom": {
+          "Floor": 850,
+          "Ceiling": 1250
+        },
+        "France": {
+          "Floor": 850,
+          "Ceiling": 1250
+        },
+        "Australia": {
+          "Floor": 200,
+          "Ceiling": 600
+        },
+        "South Korea": {
+          "Floor": 950,
+          "Ceiling": 1450
+        },
+        "Japan": {
+          "Floor": 900,
+          "Ceiling": 1400
+        },
+        "China": {
+          "Floor": 950,
+          "Ceiling": 1450
+        },
+        "Brazil": {
+          "Floor": 1200,
+          "Ceiling": 2000
+        },
+        "Mexico": {
+          "Floor": 1000,
+          "Ceiling": 1600
+        },
+        "Switzerland": {
+          "Floor": 850,
+          "Ceiling": 1250
+        },
+        "Netherlands": {
+          "Floor": 850,
+          "Ceiling": 1250
+        },
+        "Singapore": {
+          "Floor": 950,
+          "Ceiling": 1450
+        },
+        "Turkey": {
+          "Floor": 950,
+          "Ceiling": 1450
+        },
+        "Spain": {
+          "Floor": 850,
+          "Ceiling": 1250
+        },
+        "Thailand": {
+          "Floor": 950,
+          "Ceiling": 1450
+        },
+        "Italy": {
+          "Floor": 850,
+          "Ceiling": 1250
+        },
+        "Belgium": {
+          "Floor": 850,
+          "Ceiling": 1250
+        },
+        "UAE": {
+          "Floor": 950,
+          "Ceiling": 1450
+        },
+        "Austria": {
+          "Floor": 850,
+          "Ceiling": 1250
+        },
+        "Israel": {
+          "Floor": 950,
+          "Ceiling": 1450
+        },
+        "India": {
+          "Floor": 1000,
+          "Ceiling": 1600
+        },
+        "Malaysia": {
+          "Floor": 950,
+          "Ceiling": 1450
+        },
+        "Greece": {
+          "Floor": 850,
+          "Ceiling": 1250
+        },
+        "Portugal": {
+          "Floor": 850,
+          "Ceiling": 1250
+        },
+        "Poland": {
+          "Floor": 850,
+          "Ceiling": 1250
+        },
+        "Czech Republic": {
+          "Floor": 850,
+          "Ceiling": 1250
+        },
+        "Hungary": {
+          "Floor": 850,
+          "Ceiling": 1250
+        },
+        "Philippines": {
+          "Floor": 950,
+          "Ceiling": 1450
+        }
+      },
+    "Chile":{
+        "United States": {
+          "Floor": 750,
+          "Ceiling": 1250
+        },
+        "Germany": {
+          "Floor": 800,
+          "Ceiling": 1400
+        },
+        "Canada": {
+          "Floor": 700,
+          "Ceiling": 1100
+        },
+        "United Kingdom": {
+          "Floor": 850,
+          "Ceiling": 1350
+        },
+        "France": {
+          "Floor": 850,
+          "Ceiling": 1350
+        },
+        "Australia": {
+          "Floor": 1100,
+          "Ceiling": 1900
+        },
+        "South Korea": {
+          "Floor": 950,
+          "Ceiling": 1550
+        },
+        "Japan": {
+          "Floor": 1000,
+          "Ceiling": 1500
+        },
+        "China": {
+          "Floor": 1000,
+          "Ceiling": 1600
+        },
+        "Brazil": {
+          "Floor": 1300,
+          "Ceiling": 1900
+        },
+        "Mexico": {
+          "Floor": 750,
+          "Ceiling": 1200
+        },
+        "Switzerland": {
+          "Floor": 1000,
+          "Ceiling": 1500
+        },
+        "Netherlands": {
+          "Floor": 850,
+          "Ceiling": 1400
+        },
+        "Singapore": {
+          "Floor": 1200,
+          "Ceiling": 1800
+        },
+        "Turkey": {
+          "Floor": 1150,
+          "Ceiling": 1750
+        },
+        "Spain": {
+          "Floor": 850,
+          "Ceiling": 1400
+        },
+        "Thailand": {
+          "Floor": 1100,
+          "Ceiling": 1700
+        },
+        "Italy": {
+          "Floor": 900,
+          "Ceiling": 1400
+        },
+        "Belgium": {
+          "Floor": 900,
+          "Ceiling": 1400
+        },
+        "UAE": {
+          "Floor": 1300,
+          "Ceiling": 1900
+        },
+        "Austria": {
+          "Floor": 900,
+          "Ceiling": 1400
+        },
+        "Israel": {
+          "Floor": 1200,
+          "Ceiling": 1800
+        },
+        "India": {
+          "Floor": 1200,
+          "Ceiling": 1800
+        },
+        "Malaysia": {
+          "Floor": 1100,
+          "Ceiling": 1700
+        },
+        "Greece": {
+          "Floor": 800,
+          "Ceiling": 1300
+        },
+        "Portugal": {
+          "Floor": 900,
+          "Ceiling": 1400
+        },
+        "Poland": {
+          "Floor": 850,
+          "Ceiling": 1350
+        },
+        "Czech Republic": {
+          "Floor": 850,
+          "Ceiling": 1350
+        },
+        "Hungary": {
+          "Floor": 850,
+          "Ceiling": 1350
+        },
+        "Philippines": {
+          "Floor": 1100,
+          "Ceiling": 1700
+        }
+      },
+    "Germany":{
+        "United States": {
+          "Floor": 550,
+          "Ceiling": 1250
+        },
+        "Germany": {
+          "Floor": 75,
+          "Ceiling": 275
+        },
+        "Canada": {
+          "Floor": 450,
+          "Ceiling": 900
+        },
+        "United Kingdom": {
+          "Floor": 110,
+          "Ceiling": 330
+        },
+        "France": {
+          "Floor": 90,
+          "Ceiling": 450
+        },
+        "Australia": {
+          "Floor": 850,
+          "Ceiling": 1650
+        },
+        "South Korea": {
+          "Floor": 650,
+          "Ceiling": 1350
+        },
+        "Japan": {
+          "Floor": 600,
+          "Ceiling": 1400
+        },
+        "China": {
+          "Floor": 550,
+          "Ceiling": 1250
+        },
+        "Brazil": {
+          "Floor": 1100,
+          "Ceiling": 2000
+        },
+        "Mexico": {
+          "Floor": 350,
+          "Ceiling": 950
+        },
+        "Switzerland": {
+          "Floor": 190,
+          "Ceiling": 810
+        },
+        "Netherlands": {
+          "Floor": 120,
+          "Ceiling": 420
+        },
+        "Singapore": {
+          "Floor": 720,
+          "Ceiling": 1550
+        },
+        "Turkey": {
+          "Floor": 280,
+          "Ceiling": 1100
+        },
+        "Spain": {
+          "Floor": 120,
+          "Ceiling": 380
+        },
+        "Thailand": {
+          "Floor": 850,
+          "Ceiling": 1650
+        },
+        "Italy": {
+          "Floor": 110,
+          "Ceiling": 550
+        },
+        "Belgium": {
+          "Floor": 90,
+          "Ceiling": 380
+        },
+        "UAE": {
+          "Floor": 550,
+          "Ceiling": 1100
+        },
+        "Austria": {
+          "Floor": 120,
+          "Ceiling": 420
+        },
+        "Israel": {
+          "Floor": 550,
+          "Ceiling": 1350
+        },
+        "India": {
+          "Floor": 550,
+          "Ceiling": 1250
+        },
+        "Malaysia": {
+          "Floor": 800,
+          "Ceiling": 1650
+        },
+        "Greece": {
+          "Floor": 210,
+          "Ceiling": 830
+        },
+        "Portugal": {
+          "Floor": 110,
+          "Ceiling": 550
+        },
+        "Poland": {
+          "Floor": 100,
+          "Ceiling": 450
+        },
+        "Czech Republic": {
+          "Floor": 100,
+          "Ceiling": 420
+        },
+        "Hungary": {
+          "Floor": 90,
+          "Ceiling": 410
+        },
+        "Philippines": {
+          "Floor": 500,
+          "Ceiling": 950
+        }
+      },
+    "Greece":{
+        "United States": {
+          "Floor": 550,
+          "Ceiling": 1300
+        },
+        "Germany": {
+          "Floor": 420,
+          "Ceiling": 950
+        },
+        "Canada": {
+          "Floor": 540,
+          "Ceiling": 1250
+        },
+        "United Kingdom": {
+          "Floor": 400,
+          "Ceiling": 1100
+        },
+        "France": {
+          "Floor": 380,
+          "Ceiling": 1050
+        },
+        "Australia": {
+          "Floor": 850,
+          "Ceiling": 1600
+        },
+        "South Korea": {
+          "Floor": 1100,
+          "Ceiling": 2000
+        },
+        "Japan": {
+          "Floor": 980,
+          "Ceiling": 1800
+        },
+        "China": {
+          "Floor": 850,
+          "Ceiling": 1600
+        },
+        "Brazil": {
+          "Floor": 1250,
+          "Ceiling": 2300
+        },
+        "Mexico": {
+          "Floor": 950,
+          "Ceiling": 1750
+        },
+        "Switzerland": {
+          "Floor": 520,
+          "Ceiling": 1150
+        },
+        "Netherlands": {
+          "Floor": 550,
+          "Ceiling": 1200
+        },
+        "Singapore": {
+          "Floor": 880,
+          "Ceiling": 1650
+        },
+        "Turkey": {
+          "Floor": 820,
+          "Ceiling": 1500
+        },
+        "Spain": {
+          "Floor": 420,
+          "Ceiling": 1050
+        },
+        "Thailand": {
+          "Floor": 890,
+          "Ceiling": 1700
+        },
+        "Italy": {
+          "Floor": 420,
+          "Ceiling": 1000
+        },
+        "Belgium": {
+          "Floor": 420,
+          "Ceiling": 1000
+        },
+        "UAE": {
+          "Floor": 900,
+          "Ceiling": 1700
+        },
+        "Austria": {
+          "Floor": 400,
+          "Ceiling": 950
+        },
+        "Israel": {
+          "Floor": 520,
+          "Ceiling": 1250
+        },
+        "India": {
+          "Floor": 800,
+          "Ceiling": 1550
+        },
+        "Malaysia": {
+          "Floor": 870,
+          "Ceiling": 1600
+        },
+        "Greece": {
+          "Floor": 0,
+          "Ceiling": 0
+        },
+        "Portugal": {
+          "Floor": 430,
+          "Ceiling": 980
+        },
+        "Poland": {
+          "Floor": 400,
+          "Ceiling": 1000
+        },
+        "Czech Republic": {
+          "Floor": 420,
+          "Ceiling": 980
+        },
+        "Hungary": {
+          "Floor": 400,
+          "Ceiling": 950
+        },
+        "Philippines": {
+          "Floor": 850,
+          "Ceiling": 1600
+        }
+      },
+    "Kazakshtan":{
+        "United States": {
+          "Floor": 730,
+          "Ceiling": 1200
+        },
+        "Germany": {
+          "Floor": 830,
+          "Ceiling": 1165
+        },
+        "Canada": {
+          "Floor": 750,
+          "Ceiling": 1000
+        },
+        "United Kingdom": {
+          "Floor": 750,
+          "Ceiling": 1000
+        },
+        "France": {
+          "Floor": 900,
+          "Ceiling": 1150
+        },
+        "Australia": {
+          "Floor": 1100,
+          "Ceiling": 1500
+        },
+        "South Korea": {
+          "Floor": 1000,
+          "Ceiling": 1300
+        },
+        "Japan": {
+          "Floor": 1100,
+          "Ceiling": 1500
+        },
+        "China": {
+          "Floor": 600,
+          "Ceiling": 900
+        },
+        "Brazil": {
+          "Floor": 1150,
+          "Ceiling": 1525
+        },
+        "Mexico": {
+          "Floor": 900,
+          "Ceiling": 1200
+        },
+        "Switzerland": {
+          "Floor": 900,
+          "Ceiling": 1200
+        },
+        "Netherlands": {
+          "Floor": 900,
+          "Ceiling": 1200
+        },
+        "Singapore": {
+          "Floor": 1150,
+          "Ceiling": 1525
+        },
+        "Turkey": {
+          "Floor": 1100,
+          "Ceiling": 1525
+        },
+        "Spain": {
+          "Floor": 1000,
+          "Ceiling": 1325
+        },
+        "Thailand": {
+          "Floor": 1100,
+          "Ceiling": 1450
+        },
+        "Italy": {
+          "Floor": 1100,
+          "Ceiling": 1525
+        },
+        "Belgium": {
+          "Floor": 900,
+          "Ceiling": 1200
+        },
+        "UAE": {
+          "Floor": 1100,
+          "Ceiling": 1525
+        },
+        "Austria": {
+          "Floor": 900,
+          "Ceiling": 1200
+        },
+        "Israel": {
+          "Floor": 1100,
+          "Ceiling": 1525
+        },
+        "India": {
+          "Floor": 675,
+          "Ceiling": 1125
+        },
+        "Malaysia": {
+          "Floor": 1100,
+          "Ceiling": 1525
+        },
+        "Greece": {
+          "Floor": 1100,
+          "Ceiling": 1525
+        },
+        "Portugal": {
+          "Floor": 1100,
+          "Ceiling": 1525
+        },
+        "Poland": {
+          "Floor": 900,
+          "Ceiling": 1200
+        },
+        "Czech Republic": {
+          "Floor": 900,
+          "Ceiling": 1200
+        },
+        "Hungary": {
+          "Floor": 1100,
+          "Ceiling": 1525
+        },
+        "Philippines": {
+          "Floor": 1100,
+          "Ceiling": 1525
+        }
+      },
+    "New Zealand":{
+        "United States": {
+            "Floor": 850,
+            "Ceiling": 1450
+        },
+        "Germany": {
+            "Floor": 950,
+            "Ceiling": 1800
+        },
+        "Canada": {
+            "Floor": 800,
+            "Ceiling": 1550
+        },
+        "United Kingdom": {
+            "Floor": 800,
+            "Ceiling": 1500
+        },
+        "France": {
+            "Floor": 1000,
+            "Ceiling": 1900
+        },
+        "Australia": {
+            "Floor": 450,
+            "Ceiling": 850
+        },
+        "South Korea": {
+            "Floor": 1200,
+            "Ceiling": 2000
+        },
+        "Japan": {
+            "Floor": 1050,
+            "Ceiling": 1950
+        },
+        "China": {
+            "Floor": 950,
+            "Ceiling": 1850
+        },
+        "Brazil": {
+            "Floor": 1400,
+            "Ceiling": 2600
+        },
+        "Mexico": {
+            "Floor": 1150,
+            "Ceiling": 2100
+        },
+        "Switzerland": {
+            "Floor": 850,
+            "Ceiling": 1700
+        },
+        "Netherlands": {
+            "Floor": 950,
+            "Ceiling": 1750
+        },
+        "Singapore": {
+            "Floor": 950,
+            "Ceiling": 1900
+        },
+        "Turkey": {
+            "Floor": 1050,
+            "Ceiling": 2100
+        },
+        "Spain": {
+            "Floor": 900,
+            "Ceiling": 1800
+        },
+        "Thailand": {
+            "Floor": 1100,
+            "Ceiling": 2050
+        },
+        "Italy": {
+            "Floor": 1050,
+            "Ceiling": 1950
+        },
+        "Belgium": {
+            "Floor": 950,
+            "Ceiling": 1750
+        },
+        "UAE": {
+            "Floor": 1300,
+            "Ceiling": 2400
+        },
+        "Austria": {
+            "Floor": 900,
+            "Ceiling": 1700
+        },
+        "Israel": {
+            "Floor": 1100,
+            "Ceiling": 2000
+        },
+        "India": {
+            "Floor": 1050,
+            "Ceiling": 1950
+        },
+        "Malaysia": {
+            "Floor": 900,
+            "Ceiling": 1850
+        },
+        "Greece": {
+            "Floor": 1100,
+            "Ceiling": 2050
+        },
+        "Portugal": {
+            "Floor": 1000,
+            "Ceiling": 1900
+        },
+        "Poland": {
+            "Floor": 950,
+            "Ceiling": 1750
+        },
+        "Czech Republic": {
+            "Floor": 900,
+            "Ceiling": 1700
+        },
+        "Hungary": {
+            "Floor": 1050,
+            "Ceiling": 1950
+        },
+        "Philippines": {
+            "Floor": 950,
+            "Ceiling": 1850
+        }
+    },
+
+    "South Africa":{
+        "United States": {
+          "Floor": 700,
+          "Ceiling": 1200
+        },
+        "Germany": {
+          "Floor": 600,
+          "Ceiling": 1000
+        },
+        "Canada": {
+          "Floor": 750,
+          "Ceiling": 1250
+        },
+        "United Kingdom": {
+          "Floor": 500,
+          "Ceiling": 900
+        },
+        "France": {
+          "Floor": 700,
+          "Ceiling": 1150
+        },
+        "Australia": {
+          "Floor": 1200,
+          "Ceiling": 2000
+        },
+        "South Korea": {
+          "Floor": 850,
+          "Ceiling": 1500
+        },
+        "Japan": {
+          "Floor": 950,
+          "Ceiling": 1600
+        },
+        "China": {
+          "Floor": 800,
+          "Ceiling": 1300
+        },
+        "Brazil": {
+          "Floor": 1000,
+          "Ceiling": 1700
+        },
+        "Mexico": {
+          "Floor": 600,
+          "Ceiling": 1100
+        },
+        "Switzerland": {
+          "Floor": 750,
+          "Ceiling": 1250
+        },
+        "Netherlands": {
+          "Floor": 700,
+          "Ceiling": 1150
+        },
+        "Singapore": {
+          "Floor": 950,
+          "Ceiling": 1600
+        },
+        "Turkey": {
+          "Floor": 750,
+          "Ceiling": 1300
+        },
+        "Spain": {
+          "Floor": 700,
+          "Ceiling": 1150
+        },
+        "Thailand": {
+          "Floor": 800,
+          "Ceiling": 1400
+        },
+        "Italy": {
+          "Floor": 700,
+          "Ceiling": 1200
+        },
+        "Belgium": {
+          "Floor": 650,
+          "Ceiling": 1100
+        },
+        "UAE": {
+          "Floor": 850,
+          "Ceiling": 1450
+        },
+        "Austria": {
+          "Floor": 700,
+          "Ceiling": 1200
+        },
+        "Israel": {
+          "Floor": 950,
+          "Ceiling": 1600
+        },
+        "India": {
+          "Floor": 800,
+          "Ceiling": 1300
+        },
+        "Malaysia": {
+          "Floor": 900,
+          "Ceiling": 1500
+        },
+        "Greece": {
+          "Floor": 800,
+          "Ceiling": 1400
+        },
+        "Portugal": {
+          "Floor": 700,
+          "Ceiling": 1200
+        },
+        "Poland": {
+          "Floor": 700,
+          "Ceiling": 1200
+        },
+        "Czech Republic": {
+          "Floor": 750,
+          "Ceiling": 1300
+        },
+        "Hungary": {
+          "Floor": 750,
+          "Ceiling": 1300
+        },
+        "Philippines": {
+          "Floor": 900,
+          "Ceiling": 1500
+        }
+      },
+    "Spain":{
+        "United States": {
+          "Floor": 400,
+          "Ceiling": 1200
+        },
+        "Germany": {
+          "Floor": 200,
+          "Ceiling": 800
+        },
+        "Canada": {
+          "Floor": 250,
+          "Ceiling": 1000
+        },
+        "United Kingdom": {
+          "Floor": 200,
+          "Ceiling": 800
+        },
+        "France": {
+          "Floor": 250,
+          "Ceiling": 900
+        },
+        "Australia": {
+          "Floor": 900,
+          "Ceiling": 1500
+        },
+        "South Korea": {
+          "Floor": 800,
+          "Ceiling": 1200
+        },
+        "Japan": {
+          "Floor": 700,
+          "Ceiling": 1100
+        },
+        "China": {
+          "Floor": 700,
+          "Ceiling": 1200
+        },
+        "Brazil": {
+          "Floor": 800,
+          "Ceiling": 1300
+        },
+        "Mexico": {
+          "Floor": 400,
+          "Ceiling": 1000
+        },
+        "Switzerland": {
+          "Floor": 200,
+          "Ceiling": 800
+        },
+        "Netherlands": {
+          "Floor": 200,
+          "Ceiling": 800
+        },
+        "Singapore": {
+          "Floor": 900,
+          "Ceiling": 1300
+        },
+        "Turkey": {
+          "Floor": 500,
+          "Ceiling": 1000
+        },
+        "Spain": {
+          "Floor": 100,
+          "Ceiling": 500
+        },
+        "Thailand": {
+          "Floor": 800,
+          "Ceiling": 1200
+        },
+        "Italy": {
+          "Floor": 200,
+          "Ceiling": 800
+        },
+        "Belgium": {
+          "Floor": 200,
+          "Ceiling": 800
+        },
+        "UAE": {
+          "Floor": 500,
+          "Ceiling": 1000
+        },
+        "Austria": {
+          "Floor": 200,
+          "Ceiling": 800
+        },
+        "Israel": {
+          "Floor": 500,
+          "Ceiling": 1000
+        },
+        "India": {
+          "Floor": 700,
+          "Ceiling": 1200
+        },
+        "Malaysia": {
+          "Floor": 800,
+          "Ceiling": 1300
+        },
+        "Greece": {
+          "Floor": 200,
+          "Ceiling": 800
+        },
+        "Portugal": {
+          "Floor": 200,
+          "Ceiling": 800
+        },
+        "Poland": {
+          "Floor": 200,
+          "Ceiling": 800
+        },
+        "Czech Republic": {
+          "Floor": 200,
+          "Ceiling": 800
+        },
+        "Hungary": {
+          "Floor": 200,
+          "Ceiling": 800
+        },
+        "Philippines": {
+          "Floor": 800,
+          "Ceiling": 1300
+        }
+      },
+    "Switzerland":{
+        "United States": {
+          "Floor": 750,
+          "Ceiling": 1100
+        },
+        "Germany": {
+          "Floor": 150,
+          "Ceiling": 450
+        },
+        "Canada": {
+          "Floor": 650,
+          "Ceiling": 950
+        },
+        "United Kingdom": {
+          "Floor": 250,
+          "Ceiling": 550
+        },
+        "France": {
+          "Floor": 120,
+          "Ceiling": 370
+        },
+        "Australia": {
+          "Floor": 1100,
+          "Ceiling": 1600
+        },
+        "South Korea": {
+          "Floor": 850,
+          "Ceiling": 1250
+        },
+        "Japan": {
+          "Floor": 800,
+          "Ceiling": 1150
+        },
+        "China": {
+          "Floor": 550,
+          "Ceiling": 900
+        },
+        "Brazil": {
+          "Floor": 1300,
+          "Ceiling": 1900
+        },
+        "Mexico": {
+          "Floor": 500,
+          "Ceiling": 950
+        },
+        "Switzerland": {
+          "Floor": 0,
+          "Ceiling": 0
+        },
+        "Netherlands": {
+          "Floor": 150,
+          "Ceiling": 400
+        },
+        "Singapore": {
+          "Floor": 1000,
+          "Ceiling": 1400
+        },
+        "Turkey": {
+          "Floor": 450,
+          "Ceiling": 950
+        },
+        "Spain": {
+          "Floor": 180,
+          "Ceiling": 580
+        },
+        "Thailand": {
+          "Floor": 750,
+          "Ceiling": 1150
+        },
+        "Italy": {
+          "Floor": 220,
+          "Ceiling": 620
+        },
+        "Belgium": {
+          "Floor": 200,
+          "Ceiling": 600
+        },
+        "UAE": {
+          "Floor": 800,
+          "Ceiling": 1300
+        },
+        "Austria": {
+          "Floor": 120,
+          "Ceiling": 480
+        },
+        "Israel": {
+          "Floor": 750,
+          "Ceiling": 1200
+        },
+        "India": {
+          "Floor": 900,
+          "Ceiling": 1300
+        },
+        "Malaysia": {
+          "Floor": 950,
+          "Ceiling": 1350
+        },
+        "Greece": {
+          "Floor": 180,
+          "Ceiling": 580
+        },
+        "Portugal": {
+          "Floor": 220,
+          "Ceiling": 620
+        },
+        "Poland": {
+          "Floor": 200,
+          "Ceiling": 600
+        },
+        "Czech Republic": {
+          "Floor": 180,
+          "Ceiling": 580
+        },
+        "Hungary": {
+          "Floor": 200,
+          "Ceiling": 600
+        },
+        "Philippines": {
+          "Floor": 800,
+          "Ceiling": 1200
+        }
+      },
+    "UAE":{
+        "United States": {
+          "Floor": 650,
+          "Ceiling": 1450
+        },
+        "Germany": {
+          "Floor": 400,
+          "Ceiling": 1100
+        },
+        "Canada": {
+          "Floor": 550,
+          "Ceiling": 1350
+        },
+        "United Kingdom": {
+          "Floor": 450,
+          "Ceiling": 1250
+        },
+        "France": {
+          "Floor": 500,
+          "Ceiling": 1150
+        },
+        "Australia": {
+          "Floor": 750,
+          "Ceiling": 1850
+        },
+        "South Korea": {
+          "Floor": 700,
+          "Ceiling": 1750
+        },
+        "Japan": {
+          "Floor": 650,
+          "Ceiling": 1750
+        },
+        "China": {
+          "Floor": 550,
+          "Ceiling": 1400
+        },
+        "Brazil": {
+          "Floor": 850,
+          "Ceiling": 1550
+        },
+        "Mexico": {
+          "Floor": 650,
+          "Ceiling": 1350
+        },
+        "Switzerland": {
+          "Floor": 500,
+          "Ceiling": 1100
+        },
+        "Netherlands": {
+          "Floor": 500,
+          "Ceiling": 1100
+        },
+        "Singapore": {
+          "Floor": 700,
+          "Ceiling": 1450
+        },
+        "Turkey": {
+          "Floor": 550,
+          "Ceiling": 1250
+        },
+        "Spain": {
+          "Floor": 500,
+          "Ceiling": 1100
+        },
+        "Thailand": {
+          "Floor": 650,
+          "Ceiling": 1350
+        },
+        "Italy": {
+          "Floor": 500,
+          "Ceiling": 1100
+        },
+        "Belgium": {
+          "Floor": 500,
+          "Ceiling": 1100
+        },
+        "UAE": {
+          "Floor": 150,
+          "Ceiling": 450
+        },
+        "Austria": {
+          "Floor": 500,
+          "Ceiling": 1100
+        },
+        "Israel": {
+          "Floor": 550,
+          "Ceiling": 1250
+        },
+        "India": {
+          "Floor": 450,
+          "Ceiling": 1100
+        },
+        "Malaysia": {
+          "Floor": 550,
+          "Ceiling": 1250
+        },
+        "Greece": {
+          "Floor": 500,
+          "Ceiling": 1100
+        },
+        "Portugal": {
+          "Floor": 500,
+          "Ceiling": 1100
+        },
+        "Poland": {
+          "Floor": 500,
+          "Ceiling": 1100
+        },
+        "Czech Republic": {
+          "Floor": 500,
+          "Ceiling": 1100
+        },
+        "Hungary": {
+          "Floor": 500,
+          "Ceiling": 1100
+        },
+        "Philippines": {
+          "Floor": 550,
+          "Ceiling": 1250
+        }
+      },
+    "USA":{
+  "United States": {
+    "Floor": 250,
+    "Ceiling": 650
+  },
+  "Germany": {
+    "Floor": 420,
+    "Ceiling": 920
+  },
+  "Canada": {
+    "Floor": 290,
+    "Ceiling": 690
+  },
+  "United Kingdom": {
+    "Floor": 380,
+    "Ceiling": 880
+  },
+  "France": {
+    "Floor": 520,
+    "Ceiling": 1020
+  },
+  "Australia": {
+    "Floor": 830,
+    "Ceiling": 1330
+  },
+  "South Korea": {
+    "Floor": 570,
+    "Ceiling": 1070
+  },
+  "Japan": {
+    "Floor": 690,
+    "Ceiling": 1190
+  },
+  "China": {
+    "Floor": 480,
+    "Ceiling": 980
+  },
+  "Brazil": {
+    "Floor": 820,
+    "Ceiling": 1220
+  },
+  "Mexico": {
+    "Floor": 310,
+    "Ceiling": 710
+  },
+  "Switzerland": {
+    "Floor": 520,
+    "Ceiling": 1020
+  },
+  "Netherlands": {
+    "Floor": 490,
+    "Ceiling": 990
+  },
+  "Singapore": {
+    "Floor": 850,
+    "Ceiling": 1350
+  },
+  "Turkey": {
+    "Floor": 610,
+    "Ceiling": 1110
+  },
+  "Spain": {
+    "Floor": 530,
+    "Ceiling": 1030
+  },
+  "Thailand": {
+    "Floor": 860,
+    "Ceiling": 1360
+  },
+  "Italy": {
+    "Floor": 620,
+    "Ceiling": 1120
+  },
+  "Belgium": {
+    "Floor": 480,
+    "Ceiling": 980
+  },
+  "UAE": {
+    "Floor": 870,
+    "Ceiling": 1370
+  },
+  "Austria": {
+    "Floor": 510,
+    "Ceiling": 1010
+  },
+  "Israel": {
+    "Floor": 880,
+    "Ceiling": 1380
+  },
+  "India": {
+    "Floor": 830,
+    "Ceiling": 1330
+  },
+  "Malaysia": {
+    "Floor": 870,
+    "Ceiling": 1370
+  },
+  "Greece": {
+    "Floor": 590,
+    "Ceiling": 1090
+  },
+  "Portugal": {
+    "Floor": 480,
+    "Ceiling": 980
+  },
+  "Poland": {
+    "Floor": 510,
+    "Ceiling": 1010
+  },
+  "Czech Republic": {
+    "Floor": 490,
+    "Ceiling": 990
+  },
+  "Hungary": {
+    "Floor": 470,
+    "Ceiling": 970
+  },
+  "Philippines": {
+    "Floor": 840,
+    "Ceiling": 1340
+  }
+}       
+}

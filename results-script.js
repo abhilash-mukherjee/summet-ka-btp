@@ -26,16 +26,20 @@ document.getElementById("selectedDisease").innerText = selectedDisease;
 
 const diagnosisToRateRef = ref(db, 'DiagnosisToRate');
 const countryRatingsRef = ref(db, 'CountryRatings');
+const flightPricingRef = ref(db, 'FlightCosts');
 
 onValue(diagnosisToRateRef, (snapshot) => {
   const diagnosisToRateData = snapshot.val();
   onValue(countryRatingsRef, (snapshot) => {
     const countryRatingsData = snapshot.val();
-    displayDestinationCountries(diagnosisToRateData, countryRatingsData);
+    onValue(flightPricingRef, (snapshot) => {
+      const flightPricingData = snapshot.val();
+      displayDestinationCountries(diagnosisToRateData, countryRatingsData, flightPricingData);
+    });
   });
 });
 
-function displayDestinationCountries(diagnosisToRateData, countryRatingsData) {
+function displayDestinationCountries(diagnosisToRateData, countryRatingsData, flightPricingData) {
   const destinationCountriesList = document.getElementById("destinationCountriesList");
 
   for (const country in diagnosisToRateData) {
@@ -51,10 +55,14 @@ function displayDestinationCountries(diagnosisToRateData, countryRatingsData) {
           const ratingsText = Object.entries(ratings).map(([key, value]) => `${key}: ${value}`).join(', ');
           listItem.textContent += ` | Ratings: ${ratingsText}`;
         }
-
+        const flightCosts = flightPricingData[country] && flightPricingData[country][selectedCountry];
+        if (flightCosts) {
+          const flightCostsText = `Flight costs (Floor - Ceiling): ${flightCosts.floor_price} - ${flightCosts.ceiling_price}`;
+          listItem.textContent += ` | ${flightCostsText}`;
+        }
+    
         destinationCountriesList.appendChild(listItem);
       }
     }
   }
 }
-
