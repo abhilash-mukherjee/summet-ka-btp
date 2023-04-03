@@ -28,7 +28,7 @@ function fetchDiseases() {
   });
 }
 function fetchCountries() {
-  const countriesRef = ref(db, 'Countries');
+  const countriesRef = ref(db, 'SourceCountries');
   onValue(countriesRef, (snapshot) => {
     const countries = JSON.parse(snapshot.val());
     populateCountrySelect(countries);

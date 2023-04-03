@@ -1,5 +1,5 @@
 import { initializeApp, getApps, getApp } from 'https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js';
-import { getDatabase, ref, onValue } from 'https://www.gstatic.com/firebasejs/9.19.1/firebase-database.js';
+import { getDatabase, ref, onValue, get } from 'https://www.gstatic.com/firebasejs/9.19.1/firebase-database.js';
 
 const firebaseConfig = {
   apiKey: "AIzaSyBd9jVpyObrm7wZjY8uQudURMU1S2aQshM",
@@ -11,7 +11,6 @@ const firebaseConfig = {
   appId: "1:687566722505:web:a6db6c7f14b1bfb52e4418",
   measurementId: "G-FCLV70JYZE"
 };
-
 if (!getApps().length) {
   initializeApp(firebaseConfig);
 }
@@ -28,16 +27,26 @@ const diagnosisToRateRef = ref(db, 'DiagnosisToRate');
 const countryRatingsRef = ref(db, 'CountryRatings');
 const flightPricingRef = ref(db, 'FlightCosts');
 
-onValue(diagnosisToRateRef, (snapshot) => {
-  const diagnosisToRateData = snapshot.val();
-  onValue(countryRatingsRef, (snapshot) => {
-    const countryRatingsData = snapshot.val();
-    onValue(flightPricingRef, (snapshot) => {
-      const flightPricingData = snapshot.val();
-      displayDestinationCountries(diagnosisToRateData, countryRatingsData, flightPricingData);
-    });
+async function fetchData() {
+  const diagnosisToRateData = await getDatabaseData(diagnosisToRateRef);
+  const countryRatingsData = await getDatabaseData(countryRatingsRef);
+  const flightPricingData = await getDatabaseData(flightPricingRef);
+
+  displayDestinationCountries(diagnosisToRateData, countryRatingsData, flightPricingData);
+}
+
+function getDatabaseData(databaseRef) {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const snapshot = await get(databaseRef);
+      resolve(snapshot.val());
+    } catch (error) {
+      reject(error);
+    }
   });
-});
+}
+
+fetchData().catch((error) => console.error('Error fetching data:', error));
 
 function displayDestinationCountries(diagnosisToRateData, countryRatingsData, flightPricingData) {
   const destinationCountriesList = document.getElementById("destinationCountriesList");
@@ -57,7 +66,7 @@ function displayDestinationCountries(diagnosisToRateData, countryRatingsData, fl
         }
         const flightCosts = flightPricingData[country] && flightPricingData[country][selectedCountry];
         if (flightCosts) {
-          const flightCostsText = `Flight costs (Floor - Ceiling): ${flightCosts.floor_price} - ${flightCosts.ceiling_price}`;
+          const flightCostsText = `Flight costs (Floor - Ceiling): ${flightCosts.Floor} - ${flightCosts.Ceiling}`;
           listItem.textContent += ` | ${flightCostsText}`;
         }
     
@@ -66,3 +75,4 @@ function displayDestinationCountries(diagnosisToRateData, countryRatingsData, fl
     }
   }
 }
+
