@@ -24,8 +24,10 @@ function fetchDiseases() {
     const diseases = JSON.parse(snapshot.val());
     populateDiseaseSelect(diseases);
   }, {
-    onlyOnce: true
+    onlyOnce: true,
+    forceSync: true
   });
+  
 }
 function fetchCountries() {
   const countriesRef = ref(db, 'SourceCountries');

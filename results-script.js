@@ -51,10 +51,17 @@ fetchData().catch((error) => console.error('Error fetching data:', error));
 function displayDestinationCountries(diagnosisToRateData, countryRatingsData, flightPricingData) {
   const destinationCountriesList = document.getElementById("destinationCountriesList");
 
-  for (const country in diagnosisToRateData) {
-    if (diagnosisToRateData.hasOwnProperty(country)) {
-      const cost = diagnosisToRateData[country][selectedDisease];
+  console.log('DiagnosisToRate data:', diagnosisToRateData);
+  console.log('CountryRatings data:', countryRatingsData);
+  console.log('FlightPricing data:', flightPricingData);
 
+  for (const country in diagnosisToRateData) {
+    console.log(`ithCountry = ${country}`)
+    if (diagnosisToRateData.hasOwnProperty(country)) {
+      const diagnosisToRate = diagnosisToRateData[country];
+      const cost = diagnosisToRate[selectedDisease];
+      console.log(diagnosisToRateData[country])
+      if(!(diagnosisToRateData[country].hasOwnProperty(selectedDisease)))console.log(`disease: ${selectedDisease} not found for country:${country}`);
       if (cost) {
         const listItem = document.createElement("li");
         listItem.textContent = `${country}: ${cost}`;
@@ -64,15 +71,27 @@ function displayDestinationCountries(diagnosisToRateData, countryRatingsData, fl
           const ratingsText = Object.entries(ratings).map(([key, value]) => `${key}: ${value}`).join(', ');
           listItem.textContent += ` | Ratings: ${ratingsText}`;
         }
+        else{
+          console.log(`ratings = ${ratings}`)
+        }
         const flightCosts = flightPricingData[country] && flightPricingData[country][selectedCountry];
         if (flightCosts) {
           const flightCostsText = `Flight costs (Floor - Ceiling): ${flightCosts.Floor} - ${flightCosts.Ceiling}`;
           listItem.textContent += ` | ${flightCostsText}`;
         }
+        else{
+          console.log(`flightcosts = ${flightCosts}`)
+          listItem.textContent += `Flight costs (Floor - Ceiling): not available - not available`
+        }
     
         destinationCountriesList.appendChild(listItem);
       }
+      else{
+        console.log(`cost = ${cost}`);
+      }
+    }
+    else{
+      console.log(`country: ${country} not found in diagnosisToRate`);
     }
   }
 }
-
