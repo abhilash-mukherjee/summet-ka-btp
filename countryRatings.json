@@ -1,68 +1,68 @@
 {
-"Australia":{
-"Rating1":9,
-"Rating2":5,
-"Rating3":4,
-"Rating4":9
-},
-"Chile":{
-"Rating1":4,
-"Rating2":7,
-"Rating3":5,
-"Rating4":8
-},
-"Germany":{
-"Rating1":10,
-"Rating2":1,
-"Rating3":4,
-"Rating4":4
-},
-"Greece":{
-"Rating1":8,
-"Rating2":8,
-"Rating3":10,
-"Rating4":8
-},
-"Kazakhstan":{
-"Rating1":5,
-"Rating2":6,
-"Rating3":10,
-"Rating4":7
-},
-"New Zealand":{
-"Rating1":0,
-"Rating2":6,
-"Rating3":2,
-"Rating4":5
-},
-"South Africa":{
-"Rating1":8,
-"Rating2":7,
-"Rating3":8,
-"Rating4":2
-},
-"Spain":{
-"Rating1":3,
-"Rating2":1,
-"Rating3":3,
-"Rating4":2
-},
-"Switzerland":{
-"Rating1":9,
-"Rating2":6,
-"Rating3":5,
-"Rating4":5
-},
-"UAE":{
-"Rating1":7,
-"Rating2":3,
-"Rating3":6,
-"Rating4":4
-},
-"USA":{
-"Rating1":1,
-"Rating2":9,
-"Rating3":0,
-"Rating4":1
-}
-}
+    "Australia": {
+    "Cost_of_treatment": 9,
+    "Quality_of_treatment": 5,
+    "Reputation_of_the_medical_facility": 4,
+    "Accessibility_of_the_destination": 9
+    },
+    "Chile": {
+    "Cost_of_treatment": 4,
+    "Quality_of_treatment": 7,
+    "Reputation_of_the_medical_facility": 5,
+    "Accessibility_of_the_destination": 8
+    },
+    "Germany": {
+    "Cost_of_treatment": 10,
+    "Quality_of_treatment": 1,
+    "Reputation_of_the_medical_facility": 4,
+    "Accessibility_of_the_destination": 4
+    },
+    "Greece": {
+    "Cost_of_treatment": 8,
+    "Quality_of_treatment": 8,
+    "Reputation_of_the_medical_facility": 10,
+    "Accessibility_of_the_destination": 8
+    },
+    "Kazakhstan": {
+    "Cost_of_treatment": 5,
+    "Quality_of_treatment": 6,
+    "Reputation_of_the_medical_facility": 10,
+    "Accessibility_of_the_destination": 7
+    },
+    "New Zealand": {
+    "Cost_of_treatment": 0,
+    "Quality_of_treatment": 6,
+    "Reputation_of_the_medical_facility": 2,
+    "Accessibility_of_the_destination": 5
+    },
+    "South Africa": {
+    "Cost_of_treatment": 8,
+    "Quality_of_treatment": 7,
+    "Reputation_of_the_medical_facility": 8,
+    "Accessibility_of_the_destination": 2
+    },
+    "Spain": {
+    "Cost_of_treatment": 3,
+    "Quality_of_treatment": 1,
+    "Reputation_of_the_medical_facility": 3,
+    "Accessibility_of_the_destination": 2
+    },
+    "Switzerland": {
+    "Cost_of_treatment": 9,
+    "Quality_of_treatment": 6,
+    "Reputation_of_the_medical_facility": 5,
+    "Accessibility_of_the_destination": 5
+    },
+    "UAE": {
+    "Cost_of_treatment": 7,
+    "Quality_of_treatment": 3,
+    "Reputation_of_the_medical_facility": 6,
+    "Accessibility_of_the_destination": 4
+    },
+    "USA": {
+    "Cost_of_treatment": 1,
+    "Quality_of_treatment": 9,
+    "Reputation_of_the_medical_facility": 0,
+    "Accessibility_of_the_destination": 1
+    }
+    }

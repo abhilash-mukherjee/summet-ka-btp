@@ -49,49 +49,78 @@ function getDatabaseData(databaseRef) {
 fetchData().catch((error) => console.error('Error fetching data:', error));
 
 function displayDestinationCountries(diagnosisToRateData, countryRatingsData, flightPricingData) {
-  const destinationCountriesList = document.getElementById("destinationCountriesList");
-
-  console.log('DiagnosisToRate data:', diagnosisToRateData);
-  console.log('CountryRatings data:', countryRatingsData);
-  console.log('FlightPricing data:', flightPricingData);
+  const mainElement = document.querySelector("main");
 
   for (const country in diagnosisToRateData) {
-    console.log(`ithCountry = ${country}`)
     if (diagnosisToRateData.hasOwnProperty(country)) {
       const diagnosisToRate = diagnosisToRateData[country];
       const cost = diagnosisToRate[selectedDisease];
-      console.log(diagnosisToRateData[country])
-      if(!(diagnosisToRateData[country].hasOwnProperty(selectedDisease)))console.log(`disease: ${selectedDisease} not found for country:${country}`);
+
       if (cost) {
-        const listItem = document.createElement("li");
-        listItem.textContent = `${country}: ${cost}`;
+        const card = document.createElement("div");
+        card.className = "card";
+
+        const countryHeader = document.createElement("h2");
+        countryHeader.textContent = country;
+        card.appendChild(countryHeader);
+
+        const leftColumn = document.createElement("div");
+        leftColumn.className = "left-column";
 
         const ratings = countryRatingsData[country];
         if (ratings) {
-          const ratingsText = Object.entries(ratings).map(([key, value]) => `${key}: ${value}`).join(', ');
-          listItem.textContent += ` | Ratings: ${ratingsText}`;
+          const ratingsTable = document.createElement("table");
+          const tbody = document.createElement("tbody");
+
+          Object.entries(ratings).forEach(([key, value], index) => {
+            if (index % 2 === 0) {
+              const tr = document.createElement("tr");
+              const th = document.createElement("th");
+              th.textContent = `${key.replace(/_/g, ' ')}:`;
+              const td = document.createElement("td");
+              td.textContent = value;
+              tr.appendChild(th);
+              tr.appendChild(td);
+              tbody.appendChild(tr);
+            } else {
+              const tr = tbody.lastElementChild;
+              const th = document.createElement("th");
+              th.textContent = `${key.replace(/_/g, ' ')}:`;
+              const td = document.createElement("td");
+              td.textContent = value;
+              tr.appendChild(th);
+              tr.appendChild(td);
+            }
+          });
+
+          ratingsTable.appendChild(tbody);
+          leftColumn.appendChild(ratingsTable);
         }
-        else{
-          console.log(`ratings = ${ratings}`)
-        }
+
+        card.appendChild(leftColumn);
+
+        const rightColumn = document.createElement("div");
+        rightColumn.className = "right-column";
+
+        const costHeader = document.createElement("h3");
+        costHeader.textContent = `Cost: $${cost.toLocaleString()}`;
+        rightColumn.appendChild(costHeader);
+
         const flightCosts = flightPricingData[country] && flightPricingData[country][selectedCountry];
         if (flightCosts) {
-          const flightCostsText = `Flight costs (Floor - Ceiling): ${flightCosts.Floor} - ${flightCosts.Ceiling}`;
-          listItem.textContent += ` | ${flightCostsText}`;
+          const flightCostsElement = document.createElement("p");
+          flightCostsElement.className = "flight-costs";
+          flightCostsElement.innerHTML = `Flight costs: <span class="highlighted">$${flightCosts.Floor.toLocaleString()}</span> - <span class="highlighted">$${flightCosts.Ceiling.toLocaleString()}</span>`;
+          rightColumn.appendChild(flightCostsElement);
+        } else {
+          const flightCostsElement = document.createElement("p");
+          flightCostsElement.textContent = "Flight costs: not available - not available";
+          rightColumn.appendChild(flightCostsElement);
         }
-        else{
-          console.log(`flightcosts = ${flightCosts}`)
-          listItem.textContent += `Flight costs (Floor - Ceiling): not available - not available`
-        }
-    
-        destinationCountriesList.appendChild(listItem);
+
+        card.appendChild(rightColumn);
+        mainElement.appendChild(card);
       }
-      else{
-        console.log(`cost = ${cost}`);
-      }
-    }
-    else{
-      console.log(`country: ${country} not found in diagnosisToRate`);
     }
   }
 }
